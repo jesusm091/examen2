@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stilos.css">
+    <script>
+      function press(){
+        alert("hola maria")
+        const elem = document.getElementById('para');
+        
+      }
+      function realizarCambio(){
+        alert("se realizo el cambio")
+      }
+  </script>
+</head>
+<body>
+    
+    <header>
+        <img class="img-logo" src="src/logo.jpg" alt="Logo">
+        <nav>
+          <ul>
+            <li>Quienes somos</li>
+            <li>Servicios</li>
+            <li>Contacto</li>
+          </ul>
+        </nav>
+      </header>
+      <section class="subheader">
+        <div class="one">
+           <span class="textaling">
+            Enterate de nuestras ofertas
+           </span>
+                
+            
+        </div>
+        <div class="two">
+          <span class="textaling">
+            Paquete de Bodas especialess
+           </span>
+           
+        </div>
+      </section>
+        <section class="section2">
+           <div class="form-user">
+            <form class="flex-container">
+              <label for="Nombre">Nombre</label>
+              <input type="text"/>
+              <label for="Nombre">Email</label>
+              <input type="text"/>
+
+              <label for="event"> Evento</label>
+              <textarea rows="3" type="text">
+              </textarea>
+              <label for="event"> Telefono</label>
+              <input type="text"/>
+              <div class="espacio"></div>
+              <button>
+                  Solicitar cotizacion
+              </button>
+            </form>
+            
+           
+            
+           
+
+           </div>
+          
+          </section>
+          <section class="container-section3">
+            <div class="text-center">
+
+              <form class="flex-container">
+              <label for="Nombre">Nombre</label>
+              <input type="text" id="txt-nombre"/>
+              <div class="espacio"></div>
+              <button onclick="press()">
+                Iniciar sesion
+              </button>
+              <span id="text-nombre">
+                
+              </span>
+            </form>
+            </div>
+            
+           
+          </section>
+          <div class="flex-center">
+            <img src="src/logo.jpg" class="img-logo" alt="">
+
+          </div>
+          <section class="section-footer">
+            <div class="row">
+              <div class="col">
+               Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+              </div>
+              <div class="col">
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+              </div>
+              <div class="col">
+                Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+               Mas sobre nosotros<br>
+              </div>
+              <div class="col">
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+                Mas sobre nosotros<br>
+              </div>
+            </div>
+          </section>
+          <section class="section-footer">
+            <span> TCP. 6.96</span>
+            <label for="moneda">Realiza la conversion</label>
+            <input type="text" id="moneda"/>
+
+             <button onclick="realizarCambio()">
+              Realizar cambio
+             </button>
+          </section>
+
+        
+          
+  
+</body>
+</html>
